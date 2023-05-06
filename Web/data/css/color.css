@@ -1,0 +1,65 @@
+nav {
+  width: 100%;
+  background-color: darkgreen;
+  height: 60px;
+  position: fixed;
+  overflow: hidden;
+  margin-top: 0;
+  z-index: 100;
+}
+body {
+  margin: 0 0 0 0;
+}
+/* for section 2*/
+.section2 {
+  background-color: darkblue;
+  text-align: right;
+  padding: 100px;
+}
+.ly_game {
+  color: aliceblue;
+}
+.ly_title {
+  font-size: large;
+  text-align: center;
+  color: gold;
+  margin-bottom: 100px;
+}
+.result {
+  margin-top: 150px;
+  font-size: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  border: 2px solid white;
+}
+.isleapyear {
+  color: green;
+}
+.text {
+  color: red;
+}
+.hidden {
+  opacity: 0;
+}
+/*for section 3*/
+.section3 {
+  background-color: darkslategray;
+}
+.section4 {
+  background-color: darkgoldenrod;
+}
+.section5 {
+  background-color: #000000;
+}
+.section1 > img {
+  width: 100%;
+  margin-top: 60px;
+}
+img {
+  margin: auto;
+  width: 100%;
+}
+.section {
+  height: 700px;
+}
