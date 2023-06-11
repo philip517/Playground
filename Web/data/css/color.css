@@ -45,7 +45,53 @@ body {
 /*for section 3*/
 .section3 {
   background-color: darkslategray;
+  text-align: right;
 }
+.calculator {
+  width: 300px;
+  border: 2px solid black;
+  height: 500px;
+  margin: 50px 200px;
+  border-radius: 10px;
+  background-color: midnightblue;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(61, 126, 106);
+  color: white;
+  margin: 5px;
+  border: 2px solid black;
+}
+.screen > p {
+  line-height: 40px;
+  padding: 13px;
+  margin: 0%;
+  font-size: 27px;
+}
+.keys {
+  margin: 2px;
+  border-radius: 4px;
+  background-color: rgb(10, 12, 32);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.keys > button {
+  font-size: x-large;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+.keys > .solve {
+  width: 100%;
+}
+.keys > button:hover {
+  color: red;
+}
+/* for section 4 */
+
 .section4 {
   background-color: darkgoldenrod;
 }
